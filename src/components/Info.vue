@@ -182,19 +182,17 @@ ol li {
   margin-bottom: 0.6em;
 }
 #knightbg {
-  background-image: url(~@/assets/ffa.jpg);
+  background-image: url(~@/assets/ffabg.png);
   background-size: 40em;
-  background-position-x: -6em;
 }
 #duelbg {
-  background-image: url(~@/assets/duel.jpg);
+  background-image: url(~@/assets/duelbg.png);
   background-size: 80em;
-  background-position-x: -25em;
+  background-position-x: -30em;
 }
 #adminbg {
-  background-image: url(~@/assets/admin.jpeg);
-  background-size: 79em;
-  background-position-x: -15em;
-  transform: scaleX(-1);
+  background-image: url(~@/assets/adminbg.png);
+  background-size: 85em;
+  background-position-x: -19em;
 }
 </style>

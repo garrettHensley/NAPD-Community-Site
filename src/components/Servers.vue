@@ -6,12 +6,14 @@
       :header="server.attributes.name"
       :footer="server.attributes.status"
       class="bg-main text-center rounded-0 border-0"
-      :class="{ 'text-muted': server.attributes.status != 'online' }"
       :header-bg-variant="
         server.attributes.status === 'online' ? 'success' : 'danger'
       "
     >
-      <b-card-text class="text-left">
+      <b-card-text
+        class="text-left"
+        :class="{ 'text-muted': server.attributes.status != 'online' }"
+      >
         <b-avatar></b-avatar> {{ server.attributes.players }} /
         {{ server.attributes.maxPlayers }}
       </b-card-text></b-card

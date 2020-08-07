@@ -30,7 +30,7 @@
         >
       </div>
     </div>
-    <p class="lead mt-3">{{ players }} players online</p>
+    <p :if="players" class="lead mt-3">{{ players }} players online</p>
   </b-jumbotron>
 </template>
 
