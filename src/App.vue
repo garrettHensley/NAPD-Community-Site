@@ -59,9 +59,11 @@ html body {
   html body {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-    background-image: url("~@/assets/bg.png");
-    background-position-x: -85em;
-    background-size: auto;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 52, 56, 1) rgba(120, 5, 251, 1)
+    );
+    background-size: cover;
   }
 }
 h1 {
