@@ -6,7 +6,6 @@
       <div class="ml-3">
         <b-button
           href="https://discord.gg/napd"
-          target="_blank"
           size="lg"
           squared
           class="mx-1 discord"
@@ -14,7 +13,6 @@
         >
         <b-button
           href="https://www.paypal.com/paypalme/realMantisShrimp"
-          target="_blank"
           size="lg"
           squared
           class="mx-1 donate"
@@ -22,7 +20,6 @@
         >
         <b-button
           href="https://forms.gle/9V5xFDfWdL2eZjev5"
-          target="_blank"
           size="lg"
           squared
           class="mx-1 apply"
@@ -39,13 +36,13 @@ export default {
   data() {
     return {
       img: {
-        logo: require("@/assets/logo.png")
-      }
+        logo: require("@/assets/logo.png"),
+      },
     };
   },
   props: {
-    players: Number
-  }
+    players: Number,
+  },
 };
 </script>
 
