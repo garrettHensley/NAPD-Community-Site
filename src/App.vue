@@ -25,21 +25,21 @@ export default {
   components: {
     Logo,
     Info,
-    Nav
+    Nav,
   },
   data() {
     return {
       img: {
-        knight: require("@/assets/knight.png")
+        knight: require("@/assets/knight.png"),
       },
-      count: null
+      count: null,
     };
   },
   methods: {
     playerCount(e) {
       this.count = e;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -50,6 +50,7 @@ export default {
 }
 html body {
   background-image: url("~@/assets/bg.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
@@ -60,6 +61,7 @@ html body {
        to improve page load speed on mobile internet connections */
     background-image: url("~@/assets/bg.png");
     background-position-x: -85em;
+    background-size: auto;
   }
 }
 h1 {
